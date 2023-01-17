@@ -16,7 +16,7 @@ If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will o
 
 ## Requirements
 
-* Android 5.0 or higher
+* Android 7.0 or higher
 * Official Moodle App installed
 * THUMoodleWrapper installed
 
