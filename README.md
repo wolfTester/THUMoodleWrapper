@@ -23,4 +23,4 @@ If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will o
 ## Inspiration
 
 I got inspired for this app by the following Project: [TU-Darmstadt-Moodle-Wrapper](https://github.com/JonasBernard/TU-Darmstadt-Moodle-Wrapper)  
-Same as the Orignal Project the GPL-3.0 license applied to my Version.
+Same as the Original Project the GPL-3.0 license applied to my Version.
