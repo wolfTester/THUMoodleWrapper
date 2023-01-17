@@ -1,5 +1,6 @@
 package de.wolfwarrior.thu_moodle_wrapper
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -8,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("QueryPermissionsNeeded")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val source = intent
@@ -20,7 +22,5 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Newest version of Moodle not installed.", Toast.LENGTH_SHORT)
                 .show()
         }
-
-
     }
 }
