@@ -12,7 +12,7 @@ This is a simple moodle wrapper for moodle links of the THU(Technische Hochschul
 
 ## What does it do?
 
-If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will open the moodle app instead of the browser.
+If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will open the moodle app instead of the browser. <br>
 Currently supported Moodle instances:
 - moodle-thu.de
 - elearning.hnu.de/
