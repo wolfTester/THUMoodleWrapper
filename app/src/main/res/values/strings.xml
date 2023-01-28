@@ -2,4 +2,5 @@
     <string name="app_name">THU-Moodle-Wrapper</string>
     <string name="open_action">Moodle</string>
     <string name="no_moodle_app">Newest version of Moodle not installed.</string>
+    <string name="information">Hello here should soon be information</string>
 </resources>
