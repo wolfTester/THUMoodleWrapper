@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             finish()
             return
         } else {
-            Toast.makeText(this, "Newest version of Moodle not installed.", Toast.LENGTH_SHORT)
+            Toast.makeText(this, getString(R.string.no_moodle_app), Toast.LENGTH_SHORT)
                 .show()
         }
     }
