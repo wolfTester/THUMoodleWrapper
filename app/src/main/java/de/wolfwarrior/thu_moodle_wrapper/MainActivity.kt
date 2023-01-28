@@ -14,13 +14,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val source = intent
         val i = Intent(Intent.ACTION_VIEW, Uri.parse("moodlemobile://link=" + source.dataString))
-        if (i.resolveActivity(packageManager) != null) {
-            startActivity(i)
-            finish()
-            return
+        val tmp = source.dataString
+        if (tmp.toString() == "null") {
+
         } else {
-            Toast.makeText(this, getString(R.string.no_moodle_app), Toast.LENGTH_SHORT)
-                .show()
+            if (i.resolveActivity(packageManager) != null) {
+                startActivity(i)
+                finish()
+                return
+            } else {
+                Toast.makeText(this, getString(R.string.no_moodle_app), Toast.LENGTH_SHORT)
+                    .show()
+            }
         }
     }
 }
