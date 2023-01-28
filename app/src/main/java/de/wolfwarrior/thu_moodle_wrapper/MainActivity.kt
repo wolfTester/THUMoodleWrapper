@@ -15,9 +15,7 @@ class MainActivity : AppCompatActivity() {
         val source = intent
         val i = Intent(Intent.ACTION_VIEW, Uri.parse("moodlemobile://link=" + source.dataString))
         val tmp = source.dataString
-        if (tmp.toString() == "null") {
-
-        } else {
+        if (tmp.toString() != "null") {
             if (i.resolveActivity(packageManager) != null) {
                 startActivity(i)
                 finish()
