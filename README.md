@@ -27,3 +27,7 @@ Currently supported Moodle instances:
 
 I got inspired for this app by the following Project: [TU-Darmstadt-Moodle-Wrapper](https://github.com/JonasBernard/TU-Darmstadt-Moodle-Wrapper)  
 Same as the Original Project the GPL-3.0 license applied to my Version.
+
+## Thanks to:
+- J0B10 for creating the app icon.
+- bircni for the many things
