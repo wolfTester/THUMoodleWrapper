@@ -12,7 +12,10 @@ This is a simple moodle wrapper for moodle links of the THU(Technische Hochschul
 
 ## What does it do?
 
-If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will open the moodle app instead of the browser.
+If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will open the moodle app instead of the browser. <br>
+Currently supported Moodle instances:
+- moodle-thu.de
+- elearning.hnu.de/
 
 ## Requirements
 
@@ -24,3 +27,7 @@ If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will o
 
 I got inspired for this app by the following Project: [TU-Darmstadt-Moodle-Wrapper](https://github.com/JonasBernard/TU-Darmstadt-Moodle-Wrapper)  
 Same as the Original Project the GPL-3.0 license applied to my Version.
+
+## Thanks to:
+- J0B10 for creating the app icon.
+- bircni for the many things
