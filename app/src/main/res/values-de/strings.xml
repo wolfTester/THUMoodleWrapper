@@ -2,5 +2,11 @@
     <string name="app_name">THU-Moodle-Wrapper</string>
     <string name="open_action">Moodle</string>
     <string name="no_moodle_app">Neueste Version von Moodle nicht installiert</string>
-    <string name="information">Hallo hier sollen bald informationen stehen</string>
+    <string name="information">Diese App unterliegt den Bedingungen der GPLV.3-Lizenz.
+Der Quellcode ist auf GitHub(https://github.com/wolfwarrior666/THUMoodleWrapper) verfügbar.
+Ein großes Dankeschön geht an:
+- J0B10 für die Erstellung des App-Icons.
+- bircni für viele kleine Dinge
+
+WolfWarrior</string>
 </resources>

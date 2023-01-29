@@ -4,12 +4,13 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.webkit.WebView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("QueryPermissionsNeeded")
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val source = intent
@@ -25,5 +26,8 @@ class MainActivity : AppCompatActivity() {
                     .show()
             }
         }
+        setContentView(R.layout.activity_main)
+        val webview = findViewById<WebView>(R.id.webview)
+        webview.loadUrl("https://github.com/wolfwarrior666/THUMoodleWrapper#readme")
     }
 }
