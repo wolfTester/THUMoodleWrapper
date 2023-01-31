@@ -32,6 +32,14 @@
                     android:host="elearning.hnu.de"
                     android:scheme="https" />
             </intent-filter>
+            <intent-filter android:label="@string/open_action">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="moodle.uni-ulm.de"
+                    android:scheme="https" />
+            </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
