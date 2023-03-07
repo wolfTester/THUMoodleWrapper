@@ -23,7 +23,8 @@ If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will o
 Currently supported Moodle instances:
 
 - [moodle-thu.de](https://moodle-thu.de)
-- [elearning.hnu.de](https://elearning.hnu.de)
+- [elearning.hnu.de](https://elearning.hnu.de) 
+- [moodle.uni-ulm.de](https://moodle.uni-ulm.de)
 
 ## Requirements
 
