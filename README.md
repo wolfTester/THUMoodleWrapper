@@ -8,8 +8,8 @@
 # THUMoodleWrapper
 
 <div align="center">
-<!--<a href='https://play.google.com/store/apps/details?id=development.parkenulm'><img alt='Get it on Google Play' src='./docs/assets/badges/badge_googleplay.png' height='80px'/></a>
-<a href='https://apt.izzysoft.de/fdroid/index/apk/development.parkenulm'><img alt='Get it on IzzyOnDroid' src='./docs/assets/badges/badge_izzyondroid.png' height='80px'/></a>-->
+<a href='https://play.google.com/store/apps/details?id=de.wolfwarrior.thu_moodle_wrapper'><img alt='Get it on Google Play' src='./docs/assets/badges/badge_googleplay.png' height='80px'/></a>
+<!-- <a href='https://apt.izzysoft.de/fdroid/index/apk/development.parkenulm'><img alt='Get it on IzzyOnDroid' src='./docs/assets/badges/badge_izzyondroid.png' height='80px'/></a>-->
 <a href='https://github.com/wolfwarrior666/THUMoodleWrapper/releases/latest'><img alt='Get it on Github' src='./docs/assets/badges/badge_github.png' height='80px'/></a>
 </div>
 
@@ -23,7 +23,8 @@ If you click on a [moodle-thu.de](https://moodle-thu.de) link the wrapper will o
 Currently supported Moodle instances:
 
 - [moodle-thu.de](https://moodle-thu.de)
-- [elearning.hnu.de](https://elearning.hnu.de)
+- [elearning.hnu.de](https://elearning.hnu.de) 
+- [moodle.uni-ulm.de](https://moodle.uni-ulm.de)
 
 ## Requirements
 
