@@ -1,15 +1,16 @@
 package de.wolfwarrior.thu_moodle_wrapper
 
-import android.annotation.SuppressLint
+
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.webkit.WebView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val source = intent
@@ -24,10 +25,7 @@ class MainActivity : AppCompatActivity() {
                 finish()
                 return
             } else {
-                //Toast.makeText(this, getString(R.string.no_moodle_app), Toast.LENGTH_SHORT).show()
-                startActivity(i)
-                finish()
-                return
+                Toast.makeText(this, getString(R.string.no_moodle_app), Toast.LENGTH_SHORT).show()
             }*/
         }else{
             setContentView(R.layout.activity_main)
