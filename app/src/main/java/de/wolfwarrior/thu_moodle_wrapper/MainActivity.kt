@@ -30,4 +30,4 @@ class MainActivity : AppCompatActivity() {
             webview.loadUrl("https://github.com/wolfwarrior666/THUMoodleWrapper#readme")
         }
     }
-}
+}//test
