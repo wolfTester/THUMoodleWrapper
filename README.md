@@ -15,7 +15,7 @@
 
 ## About the Project
 
-This is a simple moodle wrapper for moodle links of the THU(Technische Hochschule Ulm/University of Applied Science).
+This is a simple moodle wrapper for moodle links of the THU(Technische Hochschule Ulm/University of Applied Science). 
 
 ## What does it do?
 
@@ -40,4 +40,4 @@ Same as the Original Project the GPL-3.0 license is applied to my Version.
 ## Thanks to
 
 - [@J0B10](https://github.com/J0B10) for creating the app icon.
-- [@bircni](https://github.com/bircni) for the many things
+- [@bircni](https://github.com/bircni) for the many things.
